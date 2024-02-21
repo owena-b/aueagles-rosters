@@ -1,10 +1,51 @@
 import requests
 import csv
 from bs4 import BeautifulSoup
+from tkinter import *
 
-from fixes import position_fixes, year_fixes
+from fixes import position_fixes, year_fixes, sport_fixes
 
 URL = 'https://aueagles.com/sports/mens-basketball/roster'
+
+
+def get_url():
+    global URL
+    sport = clicked.get()
+    for team in sport_fixes:
+        team = sport_fixes.get(sport)
+        if not team:
+            raise ValueError
+    new_url = f'https://aueagles.com/sports/{team}/roster'
+    print(new_url)
+    URL = new_url
+
+
+window = Tk()
+window.geometry('200x200')
+options = [
+    'Select a team',
+    'MBB',
+    'XC',
+    'Mens Soccer',
+    'Swim',
+    'T&F',
+    'Wrestling',
+    'WBB',
+    'FH',
+    'LAX',
+    'Womens Soccer',
+    'Volleyball'
+]
+clicked = StringVar()
+clicked.set('Select a team')
+drop = OptionMenu(window, clicked, *options)
+drop.pack()
+
+button = Button(window, text="Choose this team", command=get_url).pack()
+
+window.mainloop()
+
+print(URL)
 
 payload = {'view': 2}
 r = requests.get(URL, params=payload)
