@@ -1,16 +1,15 @@
 import requests
 import csv
 from bs4 import BeautifulSoup
-from tkinter import *
 
 from fixes import position_fixes, year_fixes
 
-URL = 'https://aueagles.com/sports/mens-basketball/roster'
+URL = 'https://aueagles.com/sports/womens-basketball/roster'
 
 payload = {'view': 2}
 r = requests.get(URL, params=payload)
 
-CSV_FILE = 'aueagles-mbb-roster.csv'
+CSV_FILE = 'aueagles-wbb-roster.csv'
 
 CSV_HEADERS = [
     'Jersey Number',
@@ -50,16 +49,16 @@ with open(CSV_FILE, 'w', newline='', encoding='utf-8') as outfile:
         for pos in pos_list:
             pos = position_fixes.get(pos, pos)
 
-        ft = cells[3].text.split('-')[0]
-        inches = cells[3].text.split('-')[1]
-
-        height = f'{ft} ft {inches} in'
-        height = height.strip()
-
-        yr_list = [cells[4].string.strip()]
+        yr_list = [cells[3].string.strip()]
 
         for yr in yr_list:
             yr = year_fixes.get(yr, yr)
+
+        ft = cells[4].text.split('-')[0]
+        inches = cells[4].text.split('-')[1]
+
+        height = f'{ft} ft {inches} in'
+        height = height.strip()
 
         try:
             hometown = cells[5].text.split(' / ')[0].split(', ')[0]
