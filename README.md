@@ -2,7 +2,7 @@
 
 Python programs to scrape data tables from [AU Athletics' website](https://aueagles.com/) containing the rosters for its various NCAA Division I teams. Aimed at streamlining data collection for sports journalists.
 
-It formats the data into a CSV for a single team in which each line is one player. The client can choose which team. The code also fixes abbreviations and height formatting, and it separates the hometown, state/country, and high school into their own columns.
+It formats the data into a CSV for a single team in which each line is one player. The code also fixes abbreviations and height formatting, and it separates the hometown, state/country, and high school into their own columns.
 
 **Teams:**\
 [Men's Basketball](mbb-scrape.py) ([CSV](aueagles-mbb-roster.csv))\
