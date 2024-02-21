@@ -82,3 +82,4 @@ with open(CSV_FILE, 'w', newline='', encoding='utf-8') as outfile:
         })
 
     print(f'Wrote {CSV_FILE}')
+
