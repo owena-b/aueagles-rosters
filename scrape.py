@@ -3,7 +3,7 @@ import csv
 from bs4 import BeautifulSoup
 from tkinter import *
 
-from fixes import position_fixes, year_fixes, sport_fixes
+from fixes import position_fixes, year_fixes
 
 URL = 'https://aueagles.com/sports/mens-basketball/roster'
 
