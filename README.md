@@ -8,5 +8,8 @@ It formats the data into a CSV for a single team in which each line is one playe
 [Men's Basketball](mbb-scrape.py) ([CSV](aueagles-mbb-roster.csv))\
 [Women's Basketball](wbb-scrape.py) ([CSV](aueagles-wbb-roster.csv))
 
-**A little about the methodology...**\
-I created separate Python programs because tables on the Athletics website (even different genders of the same sport) indexed differently. Men's basketball, for example, had height in the fourth column from the left, but the women's team had height in the third column.
+**How to use these files:**\
+Click the CSV link for the team you want data on. On the right of the screen, below "History," you can download the raw file. It will download a CSV (comma-separated values) file, which you can import into the spreadsheet software of your choosing. In Google Sheets, you can import the CSV into a new or existing spreadsheet.
+
+**A little about the methodology (for snooping data editors):**\
+I created separate Python programs because tables on the Athletics website (even different genders of the same sport) were organized differently. Men's basketball, for example, had height in the fourth column from the left (indexed to 3), but the women's team had height in the fifth column (indexed to 4).
