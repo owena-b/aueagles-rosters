@@ -2,7 +2,7 @@ import requests
 import csv
 from bs4 import BeautifulSoup
 
-from fixes import position_fixes, year_fixes
+from fixes import position_fixes, year_fixes, state_fixes
 
 URL = 'https://aueagles.com/sports/mens-basketball/roster'
 
@@ -62,7 +62,9 @@ with open(CSV_FILE, 'w', newline='', encoding='utf-8') as outfile:
 
         try:
             hometown = cells[5].text.split(' / ')[0].split(', ')[0]
-            state = cells[5].text.split(' / ')[0].split(', ')[1]
+            region = [cells[5].text.split(' / ')[0].split(', ')[1]]
+            for s in region:
+                state = state_fixes.get(s, s)
             hs = cells[5].text.split(' / ')[1]
 
         except IndexError:
