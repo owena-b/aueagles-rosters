@@ -1,7 +1,14 @@
 position_fixes = {
     'G': 'Guard',
     'F': 'Forward',
-    'C': 'Center'
+    'C': 'Center',
+    'M': 'Midfielder',
+    'D': 'Defender',
+    'GK': 'Goalkeeper',
+    'M/F': 'Midfielder / Forward',
+    'F/M': 'Forward / Midfielder',
+    'M/D': 'Midfielder / Defender',
+    'D/M': 'Defender / Midfielder'
 }
 
 year_fixes = {
