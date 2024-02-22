@@ -4,12 +4,12 @@ from bs4 import BeautifulSoup
 
 from fixes import position_fixes, year_fixes, state_fixes
 
-URL = 'https://aueagles.com/sports/womens-basketball/roster'
+URL = 'https://aueagles.com/sports/mens-soccer/roster'
 
 payload = {'view': 2}
 r = requests.get(URL, params=payload)
 
-CSV_FILE = 'CSVs/aueagles-wbb-roster.csv'
+CSV_FILE = '../CSVs/aueagles-msoc-roster.csv'
 
 CSV_HEADERS = [
     'Jersey Number',
@@ -49,16 +49,16 @@ with open(CSV_FILE, 'w', newline='', encoding='utf-8') as outfile:
         for pos in pos_list:
             pos = position_fixes.get(pos, pos)
 
-        yr_list = [cells[3].string.strip()]
-
-        for yr in yr_list:
-            yr = year_fixes.get(yr, yr)
-
-        ft = cells[4].text.split('-')[0]
-        inches = cells[4].text.split('-')[1]
+        ft = cells[3].text.split('-')[0]
+        inches = cells[3].text.split('-')[1]
 
         height = f'{ft} ft {inches} in'
         height = height.strip()
+
+        yr_list = [cells[4].string.strip()]
+
+        for yr in yr_list:
+            yr = year_fixes.get(yr, yr)
 
         try:
             hometown = cells[5].text.split(' / ')[0].split(', ')[0]
@@ -69,6 +69,7 @@ with open(CSV_FILE, 'w', newline='', encoding='utf-8') as outfile:
 
         except IndexError:
             hometown = None
+            state = None
             hs = None
 
         writer.writerow({
@@ -84,3 +85,4 @@ with open(CSV_FILE, 'w', newline='', encoding='utf-8') as outfile:
         })
 
     print(f'Wrote {CSV_FILE}')
+

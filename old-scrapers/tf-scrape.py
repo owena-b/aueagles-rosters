@@ -22,8 +22,8 @@ CSV_HEADERS = [
 wtable = BeautifulSoup(r.text, 'html.parser').find_all('table')[2]
 mtable = BeautifulSoup(r.text, 'html.parser').find_all('table')[3]
 
-MEN_CSV_FILE = 'CSVs/aueagles-mtf-roster.csv'
-WOMEN_CSV_FILE = 'CSVs/aueagles-wtf-roster.csv'
+MEN_CSV_FILE = '../CSVs/aueagles-mtf-roster.csv'
+WOMEN_CSV_FILE = '../CSVs/aueagles-wtf-roster.csv'
 
 t_to_c = {
     wtable: WOMEN_CSV_FILE,

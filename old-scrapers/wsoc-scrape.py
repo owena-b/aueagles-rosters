@@ -4,12 +4,12 @@ from bs4 import BeautifulSoup
 
 from fixes import position_fixes, year_fixes, state_fixes
 
-URL = 'https://aueagles.com/sports/mens-soccer/roster'
+URL = 'https://aueagles.com/sports/womens-soccer/roster'
 
 payload = {'view': 2}
 r = requests.get(URL, params=payload)
 
-CSV_FILE = 'CSVs/aueagles-msoc-roster.csv'
+CSV_FILE = '../CSVs/aueagles-wsoc-roster.csv'
 
 CSV_HEADERS = [
     'Jersey Number',
@@ -20,6 +20,7 @@ CSV_HEADERS = [
     'Hometown',
     'State/Country',
     'High School',
+    'Club',
     'Link'
 ]
 
@@ -72,6 +73,8 @@ with open(CSV_FILE, 'w', newline='', encoding='utf-8') as outfile:
             state = None
             hs = None
 
+        club = cells[6].text.strip()
+
         writer.writerow({
             'Jersey Number': jersey_no,
             'Name': name,
@@ -81,6 +84,7 @@ with open(CSV_FILE, 'w', newline='', encoding='utf-8') as outfile:
             'Hometown': hometown,
             'State/Country': state,
             'High School': hs,
+            'Club': club,
             'Link': url
         })
 
