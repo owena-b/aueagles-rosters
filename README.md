@@ -7,6 +7,8 @@ It formats the data into a CSV for a single team in which each line is one playe
 **Teams (their Python code and corresponding CSV files):**\
 [Men's Basketball](mbb-scrape.py) ([CSV](CSVs/aueagles-mbb-roster.csv))\
 [Women's Basketball](wbb-scrape.py) ([CSV](CSVs/aueagles-wbb-roster.csv))\
+[Men's Soccer](msoc-scrape.py) ([CSV](CSVs/aueagles-msoc-roster.csv))\
+[Women's Soccer](wsoc-scrape.py) ([CSV](CSVs/aueagles-wsoc-roster.csv))\
 [Men's Cross Country](xc-scrape.py) ([CSV](CSVs/aueagles-mxc-roster.csv))\
 [Women's Cross Country](xc-scrape.py) ([CSV](CSVs/aueagles-wxc-roster.csv))\
 [Men's Track and Field](tf-scrape.py) ([CSV](CSVs/aueagles-mtf-roster.csv))\
