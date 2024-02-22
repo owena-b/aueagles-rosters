@@ -22,7 +22,7 @@ sports_dict = {
 }
 
 sports_headers = {
-    'wbb': ['Jersey_number', 'Name', 'Position', 'Height', 'Academic_year', 'Hometown', 'State_or_country',
+    'wbb': ['Jersey_number', 'Name', 'Position', 'Academic_year', 'Height', 'Hometown', 'State_or_country',
             'High_school', 'Link'],
     'mbb': ['Jersey_number', 'Name', 'Position', 'Height', 'Academic_year', 'Hometown', 'State_or_country',
             'High_school', 'Link'],
@@ -38,9 +38,9 @@ sports_headers = {
     'wxc': ['Name', 'Academic_year', 'Hometown', 'State_or_country', 'High_school', 'Previous_school', 'Link'],
     'wswim': ['Name', 'Events', 'Academic_year', 'Hometown', 'State_or_country', 'High_school', 'Club_team', 'Link'],
     'mswim': ['Name', 'Events', 'Academic_year', 'Hometown', 'State_or_country', 'High_school', 'Club_team', 'Link'],
-    'fh': ['Jersey_number', 'Name', 'Position', 'Height', 'Academic_year', 'Hometown', 'State_or_country',
+    'fh': ['Jersey_number', 'Name', 'Position', 'Academic_year', 'Height', 'Hometown', 'State_or_country',
            'High_school', 'Previous_school', 'Link'],
-    'lax': ['Jersey_number', 'Name', 'Position', 'Height', 'Academic_year', 'Hometown', 'State_or_country',
+    'lax': ['Jersey_number', 'Name', 'Position', 'Academic_year', 'Height', 'Hometown', 'State_or_country',
             'High_school', 'Previous_school', 'Link'],
     'wrestling': ['Name', 'Academic_year', 'Hometown', 'State_or_country', 'High_school', 'Weight', 'Link'],
     'vb': ['Jersey_number', 'Name', 'Position', 'Height', 'Academic_year', 'Hometown', 'State_or_country',

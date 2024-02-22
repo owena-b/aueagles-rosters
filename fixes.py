@@ -8,7 +8,21 @@ position_fixes = {
     'M/F': 'Midfielder / Forward',
     'F/M': 'Forward / Midfielder',
     'M/D': 'Midfielder / Defender',
-    'D/M': 'Defender / Midfielder'
+    'D/M': 'Defender / Midfielder',
+    'A': 'Attacker',
+    'A/M': 'Attacker / Midfielder',
+    'M/A': 'Midfielder / Attacker',
+    'OH': 'Outside Hitter',
+    'OH/RS': 'Outside / Right Side Hitter',
+    'OPP': 'Opposite Hitter',
+    'OPP/RS': 'Opposite / Right Side Hitter',
+    'RS': 'Right Side Hitter',
+    'MB': 'Middle Blocker',
+    'MH': 'Middle Blocker',
+    'L': 'Libero',
+    'S': 'Setter',
+    'DS': 'Defensive Specialist',
+    'DS/L': 'Defensive Specialist / Libero'
 }
 
 year_fixes = {
@@ -28,6 +42,7 @@ state_fixes = {
     'Ariz.': 'Arizona',
     'Ark.': 'Arkansas',
     'Calif.': 'California',
+    'Co.': 'Colorado',
     'Colo.': 'Colorado',
     'Conn.': 'Connecticut',
     'Del.': 'Delaware',
@@ -40,6 +55,8 @@ state_fixes = {
     'Ky.': 'Kentucky',
     'La.': 'Louisiana',
     'Md.': 'Maryland',
+    'Md': 'Maryland',
+    'MD': 'Maryland',
     'Mass.': 'Massachusetts',
     'Mich.': 'Michigan',
     'Minn.': 'Minnesota',
@@ -65,6 +82,7 @@ state_fixes = {
     'Va.': 'Virginia',
     'Wash.': 'Washington',
     'W.Va.': 'West Virginia',
+    'W.V.': 'West Virginia',
     'Wis.': 'Wisconsin',
     'Wyo.': 'Wyoming'
 }
