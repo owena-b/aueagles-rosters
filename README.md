@@ -21,7 +21,9 @@ Volleyball ([CSV](CSVs/aueagles-vb-roster.csv))\
 Wrestling ([CSV](CSVs/aueagles-wrestling-roster.csv))
 
 **How to use these files:**\
-Click the CSV link for the team you want data on. On the right of the screen, below "History," you can download the raw file. It will download a CSV (comma-separated values) file, which you can import into the spreadsheet software of your choosing. In Google Sheets, you can import the CSV into a new or existing spreadsheet.
+Click the CSV link for the team you want data on. On the right of the screen, below "History," you can download the raw file. It will download a CSV (comma-separated values) file, which you can import into the spreadsheet software of your choosing. In Google Sheets, you can import the CSV into a new or existing spreadsheet. Remember, always double-check your data!
 
 **A little about the methodology (for snooping data editors):**\
-CURRENTLY WIP.
+Originally, I wrote several different Python programs, one for each sport. This helped me find the differences in each sport's web table, but I quickly realized it was a lot of repeated code. So, I took an object-oriented approach. I created a single Scraper class that was compatible with every sport, and relied on a number of if/else statements to correct for the differences in each table.
+
+[main.py](main.py) simply creates Scraper-class objects for each sport then calls the scrape() method on each object. [oop-scrape.py](oop-scrape.py) houses the Scraper class and a bunch of dictionaries that allow it to work for all the sports. [fixes.py](fixes.py) contains dictionaries that correct abbreviations and misspellings in the source data.
