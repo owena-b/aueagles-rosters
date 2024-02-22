@@ -4,7 +4,7 @@ Python programs to scrape data tables from [AU Athletics' website](https://aueag
 
 It formats the data into a CSV for a single team in which each line is one player. The code also fixes abbreviations and height formatting, and it separates the hometown, state/country, and high school into their own columns.
 
-**Teams (their Python code and corresponding CSV files):**\
+**Teams (and corresponding CSV files):**\
 Men's Basketball ([CSV](CSVs/aueagles-mbb-roster.csv))\
 Women's Basketball ([CSV](CSVs/aueagles-wbb-roster.csv))\
 Men's Soccer ([CSV](CSVs/aueagles-msoc-roster.csv))\
