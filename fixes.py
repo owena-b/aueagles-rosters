@@ -8,7 +8,8 @@ year_fixes = {
     'Fr.': 'Freshman',
     'So.': 'Sophomore',
     'Jr.': 'Junior',
-    'Sr.': 'Senior'
+    'Sr.': 'Senior',
+    'Gr.': 'Graduate Student'
 }
 
 state_fixes = {

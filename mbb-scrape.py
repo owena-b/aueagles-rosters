@@ -9,7 +9,7 @@ URL = 'https://aueagles.com/sports/mens-basketball/roster'
 payload = {'view': 2}
 r = requests.get(URL, params=payload)
 
-CSV_FILE = 'aueagles-mbb-roster.csv'
+CSV_FILE = 'CSVs/aueagles-mbb-roster.csv'
 
 CSV_HEADERS = [
     'Jersey Number',
