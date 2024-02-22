@@ -1,28 +1,28 @@
-Jersey Number,Name,Position,Height,Academic Year,Hometown,State/Country,High School,Link
-0,Juan Carlos Alvarez,Goalkeeper,6 ft 3 in,Freshman,McAllen,Texas,,https://aueagles.com/sports/mens-soccer/roster/juan-carlos-alvarez/6238
-1,Lorenzo Gordon,Goalkeeper,6 ft 3 in,Senior,Fairfax,Virginia,Pope Paul VI Catholic,https://aueagles.com/sports/mens-soccer/roster/lorenzo-gordon/6210
-2,Jonah Fogel,Defender,5 ft 10 in,Sophomore,Brooklyn,New York,Shuttuck St. Mary's,https://aueagles.com/sports/mens-soccer/roster/jonah-fogel/6224
-3,Mike Bleeker,Defender,6 ft 1 in,Senior,Wayne,New Jersey,Wayne Valley,https://aueagles.com/sports/mens-soccer/roster/mike-bleeker/6211
-4,Cooper Nunn,Defender,6 ft 0 in,Senior,Adelaide,Australia,Gleeson College,https://aueagles.com/sports/mens-soccer/roster/cooper-nunn/6217
-5,Nicholas Shirley,Defender,6 ft 0 in,Junior,Germantown,Maryland,Northwest,https://aueagles.com/sports/mens-soccer/roster/nicholas-shirley/6213
-6,Evan Schweickert,Midfielder,5 ft 9 in,Senior,North Haven,Connecticut,North Haven,https://aueagles.com/sports/mens-soccer/roster/evan-schweickert/6214
-7,Miles Lam,Midfielder,5 ft 10 in,Junior,Linthicum,Maryland,Mount St. Joseph's,https://aueagles.com/sports/mens-soccer/roster/miles-lam/6227
-8,Nevin Baer,Defender,6 ft 0 in,Senior,Glenside,Pennsylvania,Abington,https://aueagles.com/sports/mens-soccer/roster/nevin-baer/6215
-9,Sam Hershey,Forward,6 ft 3 in,Junior,Lancaster,Pennsylvania,McCaskey,https://aueagles.com/sports/mens-soccer/roster/sam-hershey/6231
-10,Dilane Zouantcha,Forward,5 ft 8 in,Junior,Yaounde,Cameroon,Northwest,https://aueagles.com/sports/mens-soccer/roster/dilane-zouantcha/6218
-11,Zemi Rodriguez,Midfielder,5 ft 9 in,Junior,Goshen,New York,St. Benedict's Prep,https://aueagles.com/sports/mens-soccer/roster/zemi-rodriguez/6216
-12,Cullen Connaker,Defender,6 ft 0 in,Sophomore,Plymouth,Minnesota,Shattuck St. Mary's,https://aueagles.com/sports/mens-soccer/roster/cullen-connaker/6212
-13,Ian Webb-Johnson,Defender,6 ft 3 in,Freshman,Westwood,Massachusetts,TECCA Connections Academy,https://aueagles.com/sports/mens-soccer/roster/ian-webb-johnson/6239
-15,Tim Schliemann,Midfielder,5 ft 10 in,Sophomore,Berlin,Germany,,https://aueagles.com/sports/mens-soccer/roster/tim-schliemann/6219
-16,Sebastian Garces,Midfielder,5 ft 9 in,Sophomore,Bethlehem,Pennsylvania,Freedom,https://aueagles.com/sports/mens-soccer/roster/sebastian-garces/6220
-17,Reyes Parra,Midfielder,5 ft 7 in,Freshman,Round Lake,Illinois,Shattuck-St. Mary's,https://aueagles.com/sports/mens-soccer/roster/reyes-parra/6240
-18,Leo Palomo,Midfielder,6 ft 0 in,Junior,Boyds,Maryland,Northwest,https://aueagles.com/sports/mens-soccer/roster/leo-palomo/6221
-19,Robbie Matei,Forward,6 ft 2 in,Senior,Prairie Grove,Illinois,Prairie Ridge,https://aueagles.com/sports/mens-soccer/roster/robbie-matei/6222
-20,Mustapha Sowe,Forward,5 ft 10 in,Junior,East Newark,New Jersey,Harrison,https://aueagles.com/sports/mens-soccer/roster/mustapha-sowe/6234
-21,Jared Weber,Midfielder,5 ft 9 in,Freshman,Falls Church,Virginia,Justice,https://aueagles.com/sports/mens-soccer/roster/jared-weber/6241
-22,Toshi Davis,Midfielder,5 ft 8 in,Sophomore,Baltimore,Maryland,Towson ,https://aueagles.com/sports/mens-soccer/roster/toshi-davis/6223
-23,Ethan Boyle,Midfielder,6 ft 2 in,Senior,Denver,Colorado,Denver East,https://aueagles.com/sports/mens-soccer/roster/ethan-boyle/6225
-25,Taku Takahashi,Defender,5 ft 9 in,Junior,Miyagi,Japan,Sendai,https://aueagles.com/sports/mens-soccer/roster/taku-takahashi/6226
-30,Troy Elgersma,Midfielder,6 ft 3 in,Sophomore,Redlands,California,Redlands,https://aueagles.com/sports/mens-soccer/roster/troy-elgersma/6228
-31,Dominic Dominguez,Goalkeeper,5 ft 11 in,Junior,Jacksonville,Florida,Atlantic Coast,https://aueagles.com/sports/mens-soccer/roster/dominic-dominguez/6229
-32,Matthew Tibbetts,Goalkeeper,6 ft 2 in,Sophomore,Westborough,Massachusetts,K12 Private Academy,https://aueagles.com/sports/mens-soccer/roster/matthew-tibbetts/6230
+Jersey_number,Name,Position,Height,Academic_year,Hometown,State_or_country,High_school,Link
+0,Juan Carlos Alvarez,Goalkeeper,6-3,Freshman,McAllen,Texas,,https://aueagles.com/sports/mens-soccer/roster/juan-carlos-alvarez/6238
+1,Lorenzo Gordon,Goalkeeper,6-3,Senior,Fairfax,Virginia,Pope Paul VI Catholic,https://aueagles.com/sports/mens-soccer/roster/lorenzo-gordon/6210
+2,Jonah Fogel,Defender,5-10,Sophomore,Brooklyn,New York,Shuttuck St. Mary's,https://aueagles.com/sports/mens-soccer/roster/jonah-fogel/6224
+3,Mike Bleeker,Defender,6-1,Senior,Wayne,New Jersey,Wayne Valley,https://aueagles.com/sports/mens-soccer/roster/mike-bleeker/6211
+4,Cooper Nunn,Defender,6-0,Senior,Adelaide,Australia,Gleeson College,https://aueagles.com/sports/mens-soccer/roster/cooper-nunn/6217
+5,Nicholas Shirley,Defender,6-0,Junior,Germantown,Maryland,Northwest,https://aueagles.com/sports/mens-soccer/roster/nicholas-shirley/6213
+6,Evan Schweickert,Midfielder,5-9,Senior,North Haven,Connecticut,North Haven,https://aueagles.com/sports/mens-soccer/roster/evan-schweickert/6214
+7,Miles Lam,Midfielder,5-10,Junior,Linthicum,Maryland,Mount St. Joseph's,https://aueagles.com/sports/mens-soccer/roster/miles-lam/6227
+8,Nevin Baer,Defender,6-0,Senior,Glenside,Pennsylvania,Abington,https://aueagles.com/sports/mens-soccer/roster/nevin-baer/6215
+9,Sam Hershey,Forward,6-3,Junior,Lancaster,Pennsylvania,McCaskey,https://aueagles.com/sports/mens-soccer/roster/sam-hershey/6231
+10,Dilane Zouantcha,Forward,5-8,Junior,Yaounde,Cameroon,Northwest,https://aueagles.com/sports/mens-soccer/roster/dilane-zouantcha/6218
+11,Zemi Rodriguez,Midfielder,5-9,Junior,Goshen,New York,St. Benedict's Prep,https://aueagles.com/sports/mens-soccer/roster/zemi-rodriguez/6216
+12,Cullen Connaker,Defender,6-0,Sophomore,Plymouth,Minnesota,Shattuck St. Mary's,https://aueagles.com/sports/mens-soccer/roster/cullen-connaker/6212
+13,Ian Webb-Johnson,Defender,6-3,Freshman,Westwood,Massachusetts,TECCA Connections Academy,https://aueagles.com/sports/mens-soccer/roster/ian-webb-johnson/6239
+15,Tim Schliemann,Midfielder,5-10,Sophomore,Berlin,Germany,,https://aueagles.com/sports/mens-soccer/roster/tim-schliemann/6219
+16,Sebastian Garces,Midfielder,5-9,Sophomore,Bethlehem,Pennsylvania,Freedom,https://aueagles.com/sports/mens-soccer/roster/sebastian-garces/6220
+17,Reyes Parra,Midfielder,5-7,Freshman,Round Lake,Illinois,Shattuck-St. Mary's,https://aueagles.com/sports/mens-soccer/roster/reyes-parra/6240
+18,Leo Palomo,Midfielder,6-0,Junior,Boyds,Maryland,Northwest,https://aueagles.com/sports/mens-soccer/roster/leo-palomo/6221
+19,Robbie Matei,Forward,6-2,Senior,Prairie Grove,Illinois,Prairie Ridge,https://aueagles.com/sports/mens-soccer/roster/robbie-matei/6222
+20,Mustapha Sowe,Forward,5-10,Junior,East Newark,New Jersey,Harrison,https://aueagles.com/sports/mens-soccer/roster/mustapha-sowe/6234
+21,Jared Weber,Midfielder,5-9,Freshman,Falls Church,Virginia,Justice,https://aueagles.com/sports/mens-soccer/roster/jared-weber/6241
+22,Toshi Davis,Midfielder,5-8,Sophomore,Baltimore,Maryland,Towson ,https://aueagles.com/sports/mens-soccer/roster/toshi-davis/6223
+23,Ethan Boyle,Midfielder,6-2,Senior,Denver,Colorado,Denver East,https://aueagles.com/sports/mens-soccer/roster/ethan-boyle/6225
+25,Taku Takahashi,Defender,5-9,Junior,Miyagi,Japan,Sendai,https://aueagles.com/sports/mens-soccer/roster/taku-takahashi/6226
+30,Troy Elgersma,Midfielder,6-3,Sophomore,Redlands,California,Redlands,https://aueagles.com/sports/mens-soccer/roster/troy-elgersma/6228
+31,Dominic Dominguez,Goalkeeper,5-11,Junior,Jacksonville,Florida,Atlantic Coast,https://aueagles.com/sports/mens-soccer/roster/dominic-dominguez/6229
+32,Matthew Tibbetts,Goalkeeper,6-2,Sophomore,Westborough,Massachusetts,K12 Private Academy,https://aueagles.com/sports/mens-soccer/roster/matthew-tibbetts/6230

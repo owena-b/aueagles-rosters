@@ -1,4 +1,4 @@
-Jersey_number,Name,Position,Height,Academic_year,Hometown,State_or_country,High_school,Previous_school,Link
+Jersey_number,Name,Position,Height,Academic_year,Hometown,State_or_country,High_school,Club_team,Link
 0,Julia Kato,Goalkeeper,5-7,Junior,Jacksonville,Florida,Episcopal,Jacksonville FC,https://aueagles.com/sports/womens-soccer/roster/julia-kato/6146
 1,Tamera Taylor-Moore,Goalkeeper,5-7,Sophomore,Croton-On-Hudson,New York,Croton Harmon,New York Soccer Club,https://aueagles.com/sports/womens-soccer/roster/tamera-taylor-moore/6147
 2,Morissa Lambert,Midfielder,5-4,Sophomore,Northbrook,Illinois,Glenbrook North,FC United,https://aueagles.com/sports/womens-soccer/roster/morissa-lambert/6165
@@ -9,7 +9,7 @@ Jersey_number,Name,Position,Height,Academic_year,Hometown,State_or_country,High_
 8,Natalie Dowling,Defender,5-4,Sophomore,Las Vegas,Nevada,Rancho,Heat FC,https://aueagles.com/sports/womens-soccer/roster/natalie-dowling/6151
 9,Andriana Cabral,Midfielder / Forward,5-3,Junior,Monroe,Connecticut,St. Joseph,Connecticut FC,https://aueagles.com/sports/womens-soccer/roster/andriana-cabral/6152
 10,Izzy Kadzban,Forward / Midfielder,5-3,Senior,Longwood,Florida,Lake Mary,Florida Kraze Krush,https://aueagles.com/sports/womens-soccer/roster/izzy-kadzban/6153
-11,Veronica Roach,Forward,5-6,Senior,Pottstown,Pennsylvania,Owen J. Roberts,Penn Fusion,https://aueagles.com/sports/womens-soccer/roster/veronica-roach/6197
+11,Veronica Roach,Forward,5-6,Senior,Pottstown,Pennsylvania,Owen J. Roberts,Penn Fusion ,https://aueagles.com/sports/womens-soccer/roster/veronica-roach/6197
 12,Bella Vozar,Defender,5-1,Freshman,Jefferson Hills,Pennsylvania,Thomas Jefferson,Pittsburgh Riverhounds,https://aueagles.com/sports/womens-soccer/roster/bella-vozar/6167
 13,Elle McClary,Goalkeeper,5-7,Sophomore,Millis,Massachusetts,Millis,NEFC,https://aueagles.com/sports/womens-soccer/roster/elle-mcclary/6154
 14,Brooke Steel,Midfielder,5-5,Junior,Medford Lakes,New Jersey,Shawnee,FC Delco ECNL,https://aueagles.com/sports/womens-soccer/roster/brooke-steel/6155
@@ -26,3 +26,6 @@ Jersey_number,Name,Position,Height,Academic_year,Hometown,State_or_country,High_
 25,Amélie Kovacevic,Defender,5-10,Junior,Arlington,Virginia,Washington-Liberty,Arlington SA,https://aueagles.com/sports/womens-soccer/roster/am-lie-kovacevic/6163
 26,Phoebe Merrigan,Midfielder / Defender,5-1,Sophomore,Maplewood,New Jersey,Morristown Beard School,PDA,https://aueagles.com/sports/womens-soccer/roster/phoebe-merrigan/6164
 27,Lauren Bullock,Defender,5-9,Freshman,Bel Air,Maryland,The John Carroll School,Maryland United FC,https://aueagles.com/sports/womens-soccer/roster/lauren-bullock/6196
+28,Bella Miller,Midfielder / Forward,5-5,Freshman,Cherry Hill,New Jersey,Camden Catholic ,,https://aueagles.com/sports/womens-soccer/roster/bella-miller/6168
+29,Alyssa Giroux,Forward,5-7,Sophomore,Tolland,Connecticut,Tolland,Connecticut FC United ECNL,https://aueagles.com/sports/womens-soccer/roster/alyssa-giroux/6166
+34,Lily McBride,Midfielder,5-2,Freshman,Cherry Hill,New Jersey,Camden Catholic,Real JFC,https://aueagles.com/sports/womens-soccer/roster/lily-mcbride/6184

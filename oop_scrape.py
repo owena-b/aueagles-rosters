@@ -27,21 +27,21 @@ sports_headers = {
     'mbb': ['Jersey_number', 'Name', 'Position', 'Height', 'Academic_year', 'Hometown', 'State_or_country',
             'High_school', 'Link'],
     'wsoc': ['Jersey_number', 'Name', 'Position', 'Height', 'Academic_year', 'Hometown', 'State_or_country',
-             'High_school', 'Previous_school', 'Link'],
+             'High_school', 'Club_team', 'Link'],
     'msoc': ['Jersey_number', 'Name', 'Position', 'Height', 'Academic_year', 'Hometown', 'State_or_country',
              'High_school', 'Link'],
-    'wtf': ['Name', 'Events', 'Academic_year', 'Hometown', 'State_or_country', 'High_school', 'Previous school',
+    'wtf': ['Name', 'Events', 'Academic_year', 'Hometown', 'State_or_country', 'High_school', 'Previous_school',
             'Link'],
-    'mtf': ['Name', 'Events', 'Academic_year', 'Hometown', 'State_or_country', 'High_school', 'Previous school',
+    'mtf': ['Name', 'Events', 'Academic_year', 'Hometown', 'State_or_country', 'High_school', 'Previous_school',
             'Link'],
-    'mxc': ['Name', 'Academic_year', 'Hometown', 'State_or_country', 'High_school', 'Previous school', 'Link'],
-    'wxc': ['Name', 'Academic_year', 'Hometown', 'State_or_country', 'High_school', 'Previous school', 'Link'],
-    'wswim': ['Name', 'Events', 'Academic_year', 'Hometown', 'State_or_country', 'High_school', 'Club team', 'Link'],
-    'mswim': ['Name', 'Events', 'Academic_year', 'Hometown', 'State_or_country', 'High_school', 'Club team', 'Link'],
+    'mxc': ['Name', 'Academic_year', 'Hometown', 'State_or_country', 'High_school', 'Previous_school', 'Link'],
+    'wxc': ['Name', 'Academic_year', 'Hometown', 'State_or_country', 'High_school', 'Previous_school', 'Link'],
+    'wswim': ['Name', 'Events', 'Academic_year', 'Hometown', 'State_or_country', 'High_school', 'Club_team', 'Link'],
+    'mswim': ['Name', 'Events', 'Academic_year', 'Hometown', 'State_or_country', 'High_school', 'Club_team', 'Link'],
     'fh': ['Jersey_number', 'Name', 'Position', 'Height', 'Academic_year', 'Hometown', 'State_or_country',
-           'High_school', 'Previous school', 'Link'],
+           'High_school', 'Previous_school', 'Link'],
     'lax': ['Jersey_number', 'Name', 'Position', 'Height', 'Academic_year', 'Hometown', 'State_or_country',
-            'High_school', 'Previous school', 'Link'],
+            'High_school', 'Previous_school', 'Link'],
     'wrestling': ['Name', 'Academic_year', 'Hometown', 'State_or_country', 'High_school', 'Weight', 'Link'],
     'vb': ['Jersey_number', 'Name', 'Position', 'Height', 'Academic_year', 'Hometown', 'State_or_country',
            'High_school', 'Link'],
@@ -100,8 +100,8 @@ class Scraper:
                     for pos in pos_list:
                         Position = position_fixes.get(pos, pos)
 
-                if self.sport in ['mtf','wtf','mswim','wswim']:
-                    Events = cells[self.dict.get('Event')].string.strip()
+                if self.sport in ['mtf', 'wtf', 'mswim', 'wswim']:
+                    Events = cells[self.dict.get('Events')].string
 
                 if self.sport in ['wbb', 'mbb', 'msoc', 'wsoc', 'fh', 'lax', 'vb', 'test']:
                     Height = cells[self.dict.get('Height')].text.strip()
@@ -117,13 +117,13 @@ class Scraper:
                 High_school = cells[self.dict.get('Hometown')].text.split(' / ')[1]
 
                 if self.sport == 'wrestling':
-                    Weight = cells[self.dict.get('Hometown')+1].string.strip()
+                    Weight = cells[self.dict.get('Hometown')+1].string
 
-                if self.sport in ['wsoc', 'mtf', 'wtf', 'mxc', 'wxc', 'fh', 'lax']:
-                    Previous_school = cells[self.dict.get('Hometown')+1].string.strip()
+                if self.sport in ['mtf', 'wtf', 'mxc', 'wxc', 'fh', 'lax']:
+                    Previous_school = cells[self.dict.get('Hometown')+1].string
 
-                if 'swim' in self.sport:
-                    Club_team = cells[self.dict.get('Hometown')+1].string.strip()
+                if self.sport in ['mswim', 'wswim', 'wsoc']:
+                    Club_team = cells[self.dict.get('Hometown')+1].string
 
                 if self.sport in ['mbb', 'wbb', 'msoc', 'vb']:
                     writer.writerow({
@@ -137,7 +137,7 @@ class Scraper:
                         'High_school': High_school,
                         'Link': url
                     })
-                elif self.sport in ['wsoc', 'fh', 'lax']:
+                elif self.sport in ['fh', 'lax']:
                     writer.writerow({
                         'Jersey_number': Jersey_number,
                         'Name': Name,
@@ -169,6 +169,19 @@ class Scraper:
                         'State_or_country': State,
                         'High_school': High_school,
                         'Previous_school': Previous_school,
+                        'Link': url
+                    })
+                elif self.sport == 'wsoc':
+                    writer.writerow({
+                        'Jersey_number': Jersey_number,
+                        'Name': Name,
+                        'Position': Position,
+                        'Height': Height,
+                        'Academic_year': Academic_year,
+                        'Hometown': Hometown,
+                        'State_or_country': State,
+                        'High_school': High_school,
+                        'Club_team': Club_team,
                         'Link': url
                     })
                 elif 'swim' in self.sport:
