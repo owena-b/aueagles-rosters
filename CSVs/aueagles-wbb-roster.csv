@@ -1,14 +1,14 @@
-Jersey Number,Name,Position,Height,Academic Year,Hometown,State/Country,High School,Link
-1,Anna Rescifina,Guard,5 ft 11 in,Sophomore,Sicily,Italy,Liceo Classico Goffredo Mameli,https://aueagles.com/sports/womens-basketball/roster/anna-rescifina/6208
-2,Ivy Bales,Guard,5 ft 10 in,Senior,Gatlinburg,Tennessee,Gatlinburg-Pittman,https://aueagles.com/sports/womens-basketball/roster/ivy-bales/6199
-3,Bailey Garbee,Guard,5 ft 11 in,Junior,Sewickley,Pennsylvania,Quaker Valley,https://aueagles.com/sports/womens-basketball/roster/bailey-garbee/6201
-4,Laura Nogues,Guard,5 ft 7 in,Sophomore,Sabadell,Spain,Escola Pia de Sabadell,https://aueagles.com/sports/womens-basketball/roster/laura-nogues/6207
-10,Anna LeMaster,Guard,5 ft 9 in,Senior,Ashburn,Virginia,Dayton,https://aueagles.com/sports/womens-basketball/roster/anna-lemaster/6206
-13,Kayla Henning,Guard,5 ft 7 in,Senior,Evanston,Illinois,Evanston Township,https://aueagles.com/sports/womens-basketball/roster/kayla-henning/6202
-15,Riley DeRubbo,Guard,5 ft 8 in,Senior,Washington,Pennsylvania,Trinity,https://aueagles.com/sports/womens-basketball/roster/riley-derubbo/6200
-22,Grace Koepke,Forward,6 ft 4 in,Freshman,Vernon Hills,Illinois,Vernon Hills,https://aueagles.com/sports/womens-basketball/roster/grace-koepke/6235
-23,Lauren Stack,Forward,6 ft 2 in,Gr.,Saint Charles,Illinois,Benet Academy,https://aueagles.com/sports/womens-basketball/roster/lauren-stack/6209
-24,Marisa Lee,Forward,6 ft 1 in,Senior,Marlborough,Connecticut,Hartford,https://aueagles.com/sports/womens-basketball/roster/marisa-lee/6205
-30,Lexi Salazar,Guard,5 ft 7 in,Freshman,Plainfield,Illinois,Plainfield North,https://aueagles.com/sports/womens-basketball/roster/lexi-salazar/6236
-44,Emily Johns,Forward,6 ft 1 in,Senior,Washington Township,New Jersey,Washington Township,https://aueagles.com/sports/womens-basketball/roster/emily-johns/6203
-55,Molly Lavin,Forward,6 ft 2 in,Sophomore,London,England,City of London Academy,https://aueagles.com/sports/womens-basketball/roster/molly-lavin/6204
+Jersey_number,Name,Position,Height,Academic_year,Hometown,State_or_country,High_school,Link
+1,Anna Rescifina,Guard,So.,5-11,Sicily,Italy,Liceo Classico Goffredo Mameli,https://aueagles.com/sports/womens-basketball/roster/anna-rescifina/6208
+2,Ivy Bales,Guard,Sr.,5-10,Gatlinburg,Tennessee,Gatlinburg-Pittman,https://aueagles.com/sports/womens-basketball/roster/ivy-bales/6199
+3,Bailey Garbee,Guard,Jr.,5-11,Sewickley,Pennsylvania,Quaker Valley,https://aueagles.com/sports/womens-basketball/roster/bailey-garbee/6201
+4,Laura Nogues,Guard,So.,5-7,Sabadell,Spain,Escola Pia de Sabadell,https://aueagles.com/sports/womens-basketball/roster/laura-nogues/6207
+10,Anna LeMaster,Guard,Sr.,5-9,Ashburn,Virginia,Dayton,https://aueagles.com/sports/womens-basketball/roster/anna-lemaster/6206
+13,Kayla Henning,Guard,Sr.,5-7,Evanston,Illinois,Evanston Township,https://aueagles.com/sports/womens-basketball/roster/kayla-henning/6202
+15,Riley DeRubbo,Guard,Sr.,5-8,Washington,Pennsylvania,Trinity,https://aueagles.com/sports/womens-basketball/roster/riley-derubbo/6200
+22,Grace Koepke,Forward,Fr.,6-4,Vernon Hills,Illinois,Vernon Hills,https://aueagles.com/sports/womens-basketball/roster/grace-koepke/6235
+23,Lauren Stack,Forward,Gr.,6-2,Saint Charles,Illinois,Benet Academy,https://aueagles.com/sports/womens-basketball/roster/lauren-stack/6209
+24,Marisa Lee,Forward,Sr.,6-1,Marlborough,Connecticut,Hartford,https://aueagles.com/sports/womens-basketball/roster/marisa-lee/6205
+30,Lexi Salazar,Guard,Fr.,5-7,Plainfield,Illinois,Plainfield North,https://aueagles.com/sports/womens-basketball/roster/lexi-salazar/6236
+44,Emily Johns,Forward,Sr.,6-1,Washington Township,New Jersey,Washington Township,https://aueagles.com/sports/womens-basketball/roster/emily-johns/6203
+55,Molly Lavin,Forward,So.,6-2,London,England,City of London Academy,https://aueagles.com/sports/womens-basketball/roster/molly-lavin/6204

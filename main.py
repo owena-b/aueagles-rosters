@@ -1,0 +1,33 @@
+# Use the code below as a template. A list of accepted sport abbreviations is below
+# 'wbb', 'mbb', 'wsoc', 'msoc', 'mtf', 'wtf', 'wxc', 'mxc', 'wswim', 'mswim', 'fh', 'lax', 'wrestling', 'vb'
+from oop_scrape import Scraper
+
+wbb = Scraper('wbb')
+mbb = Scraper('mbb')
+wsoc = Scraper('wsoc')
+msoc = Scraper('msoc')
+mtf = Scraper('mtf')
+wtf = Scraper('wtf')
+wxc = Scraper('wxc')
+mxc = Scraper('mxc')
+mswim = Scraper('mswim')
+wswim = Scraper('wswim')
+fh = Scraper('fh')
+lax = Scraper('lax')
+wrestling = Scraper('wrestling')
+vb = Scraper('vb')
+
+wbb.scrape()
+mbb.scrape()
+wsoc.scrape()
+msoc.scrape()
+mtf.scrape()
+wtf.scrape()
+mxc.scrape()
+wxc.scrape()
+mswim.scrape()
+wswim.scrape()
+fh.scrape()
+lax.scrape()
+wrestling.scrape()
+vb.scrape()

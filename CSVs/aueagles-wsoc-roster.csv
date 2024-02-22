@@ -1,31 +1,28 @@
-Jersey Number,Name,Position,Height,Academic Year,Hometown,State/Country,High School,Club,Link
-0,Julia Kato,Goalkeeper,5 ft 7 in,Junior,Jacksonville,Florida,Episcopal,Jacksonville FC,https://aueagles.com/sports/womens-soccer/roster/julia-kato/6146
-1,Tamera Taylor-Moore,Goalkeeper,5 ft 7 in,Sophomore,Croton-On-Hudson,New York,Croton Harmon,New York Soccer Club,https://aueagles.com/sports/womens-soccer/roster/tamera-taylor-moore/6147
-2,Morissa Lambert,Midfielder,5 ft 4 in,Sophomore,Northbrook,Illinois,Glenbrook North,FC United,https://aueagles.com/sports/womens-soccer/roster/morissa-lambert/6165
-3,Kendall Henderson,Defender,5 ft 5 in,Freshman,Tampa,Florida,Wharton,West Florida Flames,https://aueagles.com/sports/womens-soccer/roster/kendall-henderson/6187
-4,Ashley Molz,Midfielder,5 ft 8 in,Graduate Student,Ellicott City,Maryland,Centennial,Soccer Association of Columbia,https://aueagles.com/sports/womens-soccer/roster/ashley-molz/6148
-5,Natalie Oliver,Defender,5 ft 5 in,Graduate Student,Sarasota,Florida,Riverview,Tampa Bay United Rowdies ECNL,https://aueagles.com/sports/womens-soccer/roster/natalie-oliver/6149
-6,Alessandra King,Midfielder / Forward,ft  in,Sophomore,Middlebury,Connecticut,Canterbury School,Connecticut FC United ECNL,https://aueagles.com/sports/womens-soccer/roster/alessandra-king/6150
-8,Natalie Dowling,Defender,5 ft 4 in,Sophomore,Las Vegas,Nevada,Rancho,Heat FC,https://aueagles.com/sports/womens-soccer/roster/natalie-dowling/6151
-9,Andriana Cabral,Midfielder / Forward,5 ft 3 in,Junior,Monroe,Connecticut,St. Joseph,Connecticut FC,https://aueagles.com/sports/womens-soccer/roster/andriana-cabral/6152
-10,Izzy Kadzban,Forward / Midfielder,5 ft 3 in,Senior,Longwood,Florida,Lake Mary,Florida Kraze Krush,https://aueagles.com/sports/womens-soccer/roster/izzy-kadzban/6153
-11,Veronica Roach,Forward,5 ft 6 in,Senior,Pottstown,Pennsylvania,Owen J. Roberts,Penn Fusion,https://aueagles.com/sports/womens-soccer/roster/veronica-roach/6197
-12,Bella Vozar,Defender,5 ft 1 in,Freshman,Jefferson Hills,Pennsylvania,Thomas Jefferson,Pittsburgh Riverhounds,https://aueagles.com/sports/womens-soccer/roster/bella-vozar/6167
-13,Elle McClary,Goalkeeper,5 ft 7 in,Sophomore,Millis,Massachusetts,Millis,NEFC,https://aueagles.com/sports/womens-soccer/roster/elle-mcclary/6154
-14,Brooke Steel,Midfielder,5 ft 5 in,Junior,Medford Lakes,New Jersey,Shawnee,FC Delco ECNL,https://aueagles.com/sports/womens-soccer/roster/brooke-steel/6155
-15,Giuliana Capraro,Defender,5 ft 4 in,Junior,North Potomac,Maryland,Quince Orchard,Bethesda Fury ECNL,https://aueagles.com/sports/womens-soccer/roster/giuliana-capraro/6156
-16,Abby Dillon,Forward,5 ft 8 in,Senior,San Anselmo,California,The Branson School,Marin FC,https://aueagles.com/sports/womens-soccer/roster/abby-dillon/6157
-17,Avery Klingensmith,Midfielder,5 ft 10 in,Sophomore,Belchertown,Massachusetts,Belchertown,NEFC,https://aueagles.com/sports/womens-soccer/roster/avery-klingensmith/6158
-18,Olivia Simmons,Forward,5 ft 10 in,Junior,Aldie,Virginia,Highland,Braddock Road Youth,https://aueagles.com/sports/womens-soccer/roster/olivia-simmons/6159
-19,Eliza Fisher,Midfielder / Defender,5 ft 9 in,Sophomore,Plymouth,Michigan,Plymouth,Michigan Hawks,https://aueagles.com/sports/womens-soccer/roster/eliza-fisher/6160
-20,Lauren Sanders,Defender,5 ft 7 in,Freshman,Stafford,Virginia,Brooke Point,Virginia Development Academy,https://aueagles.com/sports/womens-soccer/roster/lauren-sanders/6186
-21,Jennifer McGuire,Forward,5 ft 4 in,Junior,San Juan Capistrano,California,San Juan Hills,West Coast FC,https://aueagles.com/sports/womens-soccer/roster/jennifer-mcguire/6198
-22,Lailah Stewart,Forward,5 ft 3 in,Freshman,Smyrna,Georgia,Campbell,Concorde Fire,https://aueagles.com/sports/womens-soccer/roster/lailah-stewart/6185
-23,Fisayo Iluyomade,Forward,5 ft 6 in,Graduate Student,Baltimore,Maryland,Archbishop Spalding,Soccer Association of Columbia,https://aueagles.com/sports/womens-soccer/roster/fisayo-iluyomade/6161
-24,Jordan Mahony,Defender,5 ft 7 in,Junior,Yardley,Pennsylvania,The Pennington School (N.J.),FC Delco ECNL,https://aueagles.com/sports/womens-soccer/roster/jordan-mahony/6162
-25,Amélie Kovacevic,Defender,5 ft 10 in,Junior,Arlington,Virginia,Washington-Liberty,Arlington SA,https://aueagles.com/sports/womens-soccer/roster/am-lie-kovacevic/6163
-26,Phoebe Merrigan,Midfielder / Defender,5 ft 1 in,Sophomore,Maplewood,New Jersey,Morristown Beard School,PDA,https://aueagles.com/sports/womens-soccer/roster/phoebe-merrigan/6164
-27,Lauren Bullock,Defender,5 ft 9 in,Freshman,Bel Air,Maryland,The John Carroll School,Maryland United FC,https://aueagles.com/sports/womens-soccer/roster/lauren-bullock/6196
-28,Bella Miller,Midfielder / Forward,5 ft 5 in,Freshman,Cherry Hill,New Jersey,Camden Catholic ,,https://aueagles.com/sports/womens-soccer/roster/bella-miller/6168
-29,Alyssa Giroux,Forward,5 ft 7 in,Sophomore,Tolland,Connecticut,Tolland,Connecticut FC United ECNL,https://aueagles.com/sports/womens-soccer/roster/alyssa-giroux/6166
-34,Lily McBride,Midfielder,5 ft 2 in,Freshman,Cherry Hill,New Jersey,Camden Catholic,Real JFC,https://aueagles.com/sports/womens-soccer/roster/lily-mcbride/6184
+Jersey_number,Name,Position,Height,Academic_year,Hometown,State_or_country,High_school,Previous_school,Link
+0,Julia Kato,Goalkeeper,5-7,Junior,Jacksonville,Florida,Episcopal,Jacksonville FC,https://aueagles.com/sports/womens-soccer/roster/julia-kato/6146
+1,Tamera Taylor-Moore,Goalkeeper,5-7,Sophomore,Croton-On-Hudson,New York,Croton Harmon,New York Soccer Club,https://aueagles.com/sports/womens-soccer/roster/tamera-taylor-moore/6147
+2,Morissa Lambert,Midfielder,5-4,Sophomore,Northbrook,Illinois,Glenbrook North,FC United,https://aueagles.com/sports/womens-soccer/roster/morissa-lambert/6165
+3,Kendall Henderson,Defender,5-5,Freshman,Tampa,Florida,Wharton,West Florida Flames,https://aueagles.com/sports/womens-soccer/roster/kendall-henderson/6187
+4,Ashley Molz,Midfielder,5-8,Graduate Student,Ellicott City,Maryland,Centennial,Soccer Association of Columbia,https://aueagles.com/sports/womens-soccer/roster/ashley-molz/6148
+5,Natalie Oliver,Defender,5-5,Graduate Student,Sarasota,Florida,Riverview,Tampa Bay United Rowdies ECNL,https://aueagles.com/sports/womens-soccer/roster/natalie-oliver/6149
+6,Alessandra King,Midfielder / Forward,-,Sophomore,Middlebury,Connecticut,Canterbury School,Connecticut FC United ECNL,https://aueagles.com/sports/womens-soccer/roster/alessandra-king/6150
+8,Natalie Dowling,Defender,5-4,Sophomore,Las Vegas,Nevada,Rancho,Heat FC,https://aueagles.com/sports/womens-soccer/roster/natalie-dowling/6151
+9,Andriana Cabral,Midfielder / Forward,5-3,Junior,Monroe,Connecticut,St. Joseph,Connecticut FC,https://aueagles.com/sports/womens-soccer/roster/andriana-cabral/6152
+10,Izzy Kadzban,Forward / Midfielder,5-3,Senior,Longwood,Florida,Lake Mary,Florida Kraze Krush,https://aueagles.com/sports/womens-soccer/roster/izzy-kadzban/6153
+11,Veronica Roach,Forward,5-6,Senior,Pottstown,Pennsylvania,Owen J. Roberts,Penn Fusion,https://aueagles.com/sports/womens-soccer/roster/veronica-roach/6197
+12,Bella Vozar,Defender,5-1,Freshman,Jefferson Hills,Pennsylvania,Thomas Jefferson,Pittsburgh Riverhounds,https://aueagles.com/sports/womens-soccer/roster/bella-vozar/6167
+13,Elle McClary,Goalkeeper,5-7,Sophomore,Millis,Massachusetts,Millis,NEFC,https://aueagles.com/sports/womens-soccer/roster/elle-mcclary/6154
+14,Brooke Steel,Midfielder,5-5,Junior,Medford Lakes,New Jersey,Shawnee,FC Delco ECNL,https://aueagles.com/sports/womens-soccer/roster/brooke-steel/6155
+15,Giuliana Capraro,Defender,5-4,Junior,North Potomac,Maryland,Quince Orchard,Bethesda Fury ECNL,https://aueagles.com/sports/womens-soccer/roster/giuliana-capraro/6156
+16,Abby Dillon,Forward,5-8,Senior,San Anselmo,California,The Branson School,Marin FC,https://aueagles.com/sports/womens-soccer/roster/abby-dillon/6157
+17,Avery Klingensmith,Midfielder,5-10,Sophomore,Belchertown,Massachusetts,Belchertown,NEFC,https://aueagles.com/sports/womens-soccer/roster/avery-klingensmith/6158
+18,Olivia Simmons,Forward,5-10,Junior,Aldie,Virginia,Highland,Braddock Road Youth,https://aueagles.com/sports/womens-soccer/roster/olivia-simmons/6159
+19,Eliza Fisher,Midfielder / Defender,5-9,Sophomore,Plymouth,Michigan,Plymouth,Michigan Hawks,https://aueagles.com/sports/womens-soccer/roster/eliza-fisher/6160
+20,Lauren Sanders,Defender,5-7,Freshman,Stafford,Virginia,Brooke Point,Virginia Development Academy,https://aueagles.com/sports/womens-soccer/roster/lauren-sanders/6186
+21,Jennifer McGuire,Forward,5-4,Junior,San Juan Capistrano,California,San Juan Hills,West Coast FC,https://aueagles.com/sports/womens-soccer/roster/jennifer-mcguire/6198
+22,Lailah Stewart,Forward,5-3,Freshman,Smyrna,Georgia,Campbell,Concorde Fire,https://aueagles.com/sports/womens-soccer/roster/lailah-stewart/6185
+23,Fisayo Iluyomade,Forward,5-6,Graduate Student,Baltimore,Maryland,Archbishop Spalding,Soccer Association of Columbia,https://aueagles.com/sports/womens-soccer/roster/fisayo-iluyomade/6161
+24,Jordan Mahony,Defender,5-7,Junior,Yardley,Pennsylvania,The Pennington School (N.J.),FC Delco ECNL,https://aueagles.com/sports/womens-soccer/roster/jordan-mahony/6162
+25,Amélie Kovacevic,Defender,5-10,Junior,Arlington,Virginia,Washington-Liberty,Arlington SA,https://aueagles.com/sports/womens-soccer/roster/am-lie-kovacevic/6163
+26,Phoebe Merrigan,Midfielder / Defender,5-1,Sophomore,Maplewood,New Jersey,Morristown Beard School,PDA,https://aueagles.com/sports/womens-soccer/roster/phoebe-merrigan/6164
+27,Lauren Bullock,Defender,5-9,Freshman,Bel Air,Maryland,The John Carroll School,Maryland United FC,https://aueagles.com/sports/womens-soccer/roster/lauren-bullock/6196

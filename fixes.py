@@ -16,7 +16,11 @@ year_fixes = {
     'So.': 'Sophomore',
     'Jr.': 'Junior',
     'Sr.': 'Senior',
-    'Gr.': 'Graduate Student'
+    'Gr.': 'Graduate Student',
+    'R-Fr.': 'Redshirt Freshman',
+    'R-So.': 'Redshirt Sophomore',
+    'R-Jr.': 'Redshirt Junior',
+    'R-Sr.': 'Redshirt Senior'
 }
 
 state_fixes = {
